@@ -37,7 +37,7 @@ function App() {
     }
 
     timerComponents.push(
-      <span>
+      <span key={interval}>
         {timeLeft[interval]} {interval}{" "}
       </span>
     );
@@ -61,15 +61,16 @@ const getTimeBasedColour = () => {
 const contents = (component, colour) => {
   const fontColour = colour === 'white' ? 'black' : 'white';
   return (
-    <div class='background' style={{ backgroundColor: colour }}>
-      <div class='parent-container'style={{ backgroundColor: colour }}>
+    <div className='background' style={{ backgroundColor: colour }}>
+      <div className='parent-container'style={{ backgroundColor: colour }}>
         {houseImage[colour]}
       </div>
-      <div class='container text-center' style={{ fontSize: 40 }}>
+      <div className='container text-center' style={{ fontSize: 40 }}>
         {component.length ? (
-          <span class='text-container' style={{
+          <span className='text-container' style={{
             color: fontColour,
-            borderBottomColor: fontColour}}>
+            borderBottomColor: fontColour
+            }}>
             {" "}
             Melbourne, we have <b>{component}</b> left in lockdown.
           </span>
