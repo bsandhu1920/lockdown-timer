@@ -38,7 +38,7 @@ function App() {
 
     timerComponents.push(
       <span key={interval}>
-        {timeLeft[interval]} {interval}{" "}
+        <b>{timeLeft[interval]}</b> {interval}{" "}
       </span>
     );
   });
@@ -72,7 +72,7 @@ const contents = (component, colour) => {
             borderBottomColor: fontColour
             }}>
             {" "}
-            Melbourne, we have <b>{component}</b> left in lockdown.
+            Melbourne, we have {component} left in lockdown.
           </h2>
         ) : (
           <h2>Time's up!</h2>
