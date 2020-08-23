@@ -129,7 +129,7 @@ const houseImage = {
         x2="124"
         y2="55.5"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="111.5"
@@ -137,7 +137,7 @@ const houseImage = {
         x2="111.5"
         y2="57"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="106.5"
@@ -145,7 +145,7 @@ const houseImage = {
         x2="106.5"
         y2="13"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="90"
@@ -153,7 +153,7 @@ const houseImage = {
         x2="109"
         y2="14.5"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="92.5"
@@ -161,7 +161,7 @@ const houseImage = {
         x2="92.5"
         y2="13"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="18.5"
@@ -169,7 +169,7 @@ const houseImage = {
         x2="18.5"
         y2="58"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="55.5"
@@ -177,7 +177,7 @@ const houseImage = {
         x2="55.5"
         y2="91"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="53"
@@ -185,7 +185,7 @@ const houseImage = {
         x2="81"
         y2="90.5"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="78.5"
@@ -193,7 +193,7 @@ const houseImage = {
         x2="78.5"
         y2="91"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="2.36823"
@@ -201,7 +201,7 @@ const houseImage = {
         x2="67.3682"
         y2="2.10597"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <line
         x1="127.323"
@@ -209,7 +209,7 @@ const houseImage = {
         x2="64.3227"
         y2="1.85384"
         stroke="#E5E5E5"
-        stroke-width="5"
+        strokeWidth="5"
       />
       <circle cx="71" cy="107" r="2" fill="#E5E5E5" />
     </svg>
