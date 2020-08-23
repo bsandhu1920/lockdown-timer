@@ -67,15 +67,15 @@ const contents = (component, colour) => {
       </div>
       <div className='container text-center' style={{ fontSize: 40 }}>
         {component.length ? (
-          <span className='text-container' style={{
+          <h2 className='text-container' style={{
             color: fontColour,
             borderBottomColor: fontColour
             }}>
             {" "}
             Melbourne, we have <b>{component}</b> left in lockdown.
-          </span>
+          </h2>
         ) : (
-          <span>Time's up!</span>
+          <h2>Time's up!</h2>
         )}
       </div>
     </div>
