@@ -43,7 +43,6 @@ function App() {
     );
   });
 
-
   return contents(timerComponents, getTimeBasedColour());
 }
 
@@ -51,7 +50,7 @@ const getTimeBasedColour = () => {
   const localTime = new Date().toLocaleString("en-US", {timeZone: "Australia/Brisbane"}).split(',')[1].trim();
   const hour = localTime.split(':')[0];
 
-  if (localTime === 'AM') {
+  if (localTime.endsWith('AM')) {
     return hour < 9 ? 'black' : 'white';
   } else {
     return hour < 5 ? 'white' : 'black';
