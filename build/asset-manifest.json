@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lockdown-timer/static/css/main.e11df38b.chunk.css",
+    "main.js": "/lockdown-timer/static/js/main.53c971fd.chunk.js",
+    "main.js.map": "/lockdown-timer/static/js/main.53c971fd.chunk.js.map",
+    "runtime-main.js": "/lockdown-timer/static/js/runtime-main.495db6e3.js",
+    "runtime-main.js.map": "/lockdown-timer/static/js/runtime-main.495db6e3.js.map",
+    "static/css/2.11829350.chunk.css": "/lockdown-timer/static/css/2.11829350.chunk.css",
+    "static/js/2.5b7bc807.chunk.js": "/lockdown-timer/static/js/2.5b7bc807.chunk.js",
+    "static/js/2.5b7bc807.chunk.js.map": "/lockdown-timer/static/js/2.5b7bc807.chunk.js.map",
+    "index.html": "/lockdown-timer/index.html",
+    "precache-manifest.150479032ba532198815427b9d14477b.js": "/lockdown-timer/precache-manifest.150479032ba532198815427b9d14477b.js",
+    "service-worker.js": "/lockdown-timer/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/lockdown-timer/static/css/2.11829350.chunk.css.map",
+    "static/css/main.e11df38b.chunk.css.map": "/lockdown-timer/static/css/main.e11df38b.chunk.css.map",
+    "static/js/2.5b7bc807.chunk.js.LICENSE.txt": "/lockdown-timer/static/js/2.5b7bc807.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.495db6e3.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.5b7bc807.chunk.js",
+    "static/css/main.e11df38b.chunk.css",
+    "static/js/main.53c971fd.chunk.js"
+  ]
+}
